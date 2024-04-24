@@ -31,7 +31,7 @@ function Todo() {
         <h1>TODO LIST ASSIGNMENT, QUAD'B TECH</h1>
         <div className="child-div">
           <figure>
-            <figcaption className="heading">Add Your List Here ✌️</figcaption>
+            <figcaption className="heading">Add Your List Here! ✌️</figcaption>
           </figure>
 
           <div className="addItems">
