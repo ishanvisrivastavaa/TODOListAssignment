@@ -1,6 +1,6 @@
 # React + Vite
 #publicURL
-https://todolist-eta-eight.vercel.app/
+https://todolist-ebon-nu.vercel.app/
 
 #Todo List Application
 This is a simple todo list application built with React and Redux.
