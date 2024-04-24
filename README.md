@@ -10,7 +10,7 @@ This is a simple todo list application built with React and Redux.
 2. Delete individual tasks
 3. Remove all tasks from the list
 4. Persistence: Tasks are saved locally and will not be lost on page reload
-5. 
+ 
 #Setup
 1. Clone the repository to your local machine:
 git clone https://github.com/ishanvisrivastavaa/todo-list.git
