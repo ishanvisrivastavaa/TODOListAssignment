@@ -1,0 +1,113 @@
+/* Todo.css */
+.main-div {
+  margin: auto;
+  margin-top: 140px;
+  display: flex;
+  width: 60rem;
+  border-radius: 30px;
+  /* height: 60rem; */
+  max-height: 100%;
+  background: rgb(213, 213, 213);
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 44px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(0, 0, 0, 0.1),
+    0 0 0 6px rgba(0, 0, 0, 0.1), 0 0 0 8px rgba(0, 0, 0, 0.1),
+    0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  color: rgb(69, 68, 68);
+  font-weight: 200;
+  font-size: 2rem;
+  margin-left: 6rem; /* adjusted margin-left */
+}
+
+.addItems,
+.eachItems {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* added margin-top */
+}
+
+.input {
+  background-color: #edeef0;
+  border: none;
+  outline: none;
+  width: 30rem;
+  max-height: 100%;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.add-btn {
+  margin-left: -26px;
+  margin-top: 15px;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  color: rgb(7, 239, 7);
+}
+
+.show-items {
+  margin-top: 1rem;
+}
+
+.input2 {
+  background-color: whitesmoke;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 30rem;
+  height: 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #edeef0;
+}
+
+.input2:hover {
+  background: white;
+}
+
+.del-btn {
+  margin-left: -26px;
+  margin-top: 10px;
+}
+
+.del-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.removeall {
+  padding: 0.75rem 0;
+  width: 10rem;
+  transition: background-color 0.3s ease;
+  outline: none;
+  border-radius: 450px;
+  border: none;
+  font-size: 15px;
+}
+
+.removeall:active {
+  transform: translateY(2px);
+}
+
+.removeall:hover {
+  cursor: pointer;
+  background-color: rgb(113, 14, 201);
+  color: white;
+}
+
+.deleteAll {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
